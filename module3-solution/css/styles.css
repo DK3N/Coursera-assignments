@@ -1,0 +1,41 @@
+body {
+	background-color: gray;
+}
+.navbar {
+	background-color: white;
+}
+.navbar-brand a {
+	text-decoration: none;
+}
+a > h1 {
+	margin-left:15px;
+	color: #4991a3;
+}
+h2 {
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+h3 {
+	margin-top: 15px;
+}
+li > a {
+	text-align:center;
+}
+li > a:hover{
+	background-color: #78cde3;
+}
+.navbar-collapse {
+	visibility: hidden;
+	background-color: #a6e5f5;
+}
+section > div {
+	border: solid black 2px;
+	background-color: white;
+	margin-bottom: 25px;
+}
+@media (max-width: 767px) {
+	.navbar-collapse {
+		visibility: visible;
+	}
+}
